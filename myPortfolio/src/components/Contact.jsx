@@ -1,4 +1,4 @@
-// src/components/Contact.jsx
+
 import React from 'react';
 import './Contact.css';
 import FadeInSection from './FadeInSection';

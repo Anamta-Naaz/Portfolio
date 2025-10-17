@@ -1,6 +1,4 @@
 
-
-// src/components/Hero.jsx
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import Particles from './Particles';
@@ -29,7 +27,7 @@ export default function Hero() {
         <div className="hero-buttons">
           <a href="#projects" className="btn primary">View Projects</a>
           <a href="#contact" className="btn secondary">Contact Me</a>
-          <a href="/anamta_resume.pdf" download className="btn outline">Download Resume</a>
+          <a href="/Anamta_Resume1.pdf" download className="btn outline">Download Resume</a>
         </div>
       </div>
     </section>

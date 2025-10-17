@@ -10,8 +10,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',       // root path for deployment
+  base: '/',      
   build: {
-    outDir: 'dist' // default build folder for Vercel
+    outDir: 'dist' 
   },
 });

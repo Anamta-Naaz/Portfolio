@@ -1,4 +1,4 @@
-// src/components/FadeInSection.jsx
+
 import React, { useEffect, useRef, useState } from 'react';
 import './FadeInSection.css';
 

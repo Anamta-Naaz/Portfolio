@@ -1,7 +1,4 @@
 
-
-
-// src/components/Skills.jsx
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';

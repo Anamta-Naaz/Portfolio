@@ -1,5 +1,6 @@
-/* 
+
 .hero {
+  position: relative;  
   height: 100vh;
   display: flex;
   align-items: center;
@@ -8,40 +9,11 @@
   color: #fff;
   text-align: center;
   padding: 0 20px;
-}
-.hero-intro { font-size: 1.2rem; margin-bottom: 10px; }
-.hero-name { font-size: 3rem; font-weight: bold; margin-bottom: 10px; }
-.hero-role { font-size: 1.5rem; font-weight: 500; color: #ffd700; margin-bottom: 20px; transition: all 0.5s; }
-.hero-desc { font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
-.hero-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
-.btn { padding: 10px 20px; border-radius: 8px; font-weight: 500; cursor: pointer; text-decoration: none; transition: all 0.3s; }
-.btn.primary { background-color: #ffd700; color: #182848; }
-.btn.primary:hover { background-color: #ffbf00; border:2px solid white; }
-.btn.secondary { background-color: #fff; color: #182848; }
-.btn.secondary:hover { background-color: #eaeaea; }
-.btn.outline { border: 2px solid #ffd700; color: #ffd700; }
-.btn.outline:hover { background-color: #ffd700; color: #182848; } */
-
-
-
-
-
-
-.hero {
-  position: relative;  /* make particles stay behind */
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #4b6cb7, #182848);
-  color: #fff;
-  text-align: center;
-  padding: 0 20px;
-  overflow: hidden; /* prevent particles from overflowing */
+  overflow: hidden; 
 }
 
 .hero-content {
-  position: relative; /* content stays above canvas */
+  position: relative; 
   z-index: 1;
 }
 
@@ -50,16 +22,64 @@
     height:250px;
     border-radius: 200px ;
 }
-.hero-intro { font-size: 1.2rem; margin-bottom: 10px; }
-.hero-name { font-size: 3rem; font-weight: bold; margin-bottom: 10px; }
-.hero-role { font-size: 1.5rem; font-weight: 500; color: #ffd700; margin-bottom: 20px; transition: all 0.5s; }
-.hero-desc { font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.hero-intro { 
+  font-size: 1.2rem; 
+  margin-bottom: 10px;
+ }
+.hero-name { 
+  font-size: 3rem; 
+  font-weight: bold; 
+  margin-bottom: 10px;
+ }
+.hero-role { 
+  font-size: 1.5rem; 
+  font-weight: 500; 
+  color: #ffd700; 
+  margin-bottom: 20px; 
+  transition: all 0.5s; 
+}
+.hero-desc { 
+  font-size: 1.1rem; 
+  margin-bottom: 30px; 
+  max-width: 600px; 
+  margin-left: auto; 
+  margin-right: auto;
+ }
 
-.hero-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
-.btn { padding: 10px 20px; border-radius: 8px; font-weight: 500; cursor: pointer; text-decoration: none; transition: all 0.3s; }
-.btn.primary { background-color: #ffd700; color: #182848; }
-.btn.primary:hover { background-color: #ffbf00; border:2px solid white; }
-.btn.secondary { background-color: #fff; color: #182848; }
-.btn.secondary:hover { background-color: #eaeaea; }
-.btn.outline { border: 2px solid #ffd700; color: #ffd700; }
-.btn.outline:hover { background-color: #ffd700; color: #182848; }
+.hero-buttons { 
+  display: flex; 
+  gap: 15px; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+.btn { 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  font-weight: 500; 
+  cursor: pointer; 
+  text-decoration: none; 
+  transition: all 0.3s; 
+}
+.btn.primary { 
+  background-color: #ffd700; 
+  color: #182848; 
+}
+.btn.primary:hover { 
+  background-color: #ffbf00; 
+  border:2px solid white;
+ }
+.btn.secondary { 
+  background-color: #fff; 
+  color: #182848; 
+}
+.btn.secondary:hover { 
+  background-color: #eaeaea; 
+}
+.btn.outline { 
+  border: 2px solid #ffd700; 
+  color: #ffd700; 
+}
+.btn.outline:hover { 
+  background-color: #ffd700; 
+  color: #182848; 
+}

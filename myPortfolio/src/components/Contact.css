@@ -1,8 +1,41 @@
-.contact { padding: 80px 20px; background-color: #fff; text-align: center; 
+.contact { 
+    padding: 80px 20px; 
+    background-color: #fff; 
+    text-align: center; 
 }
-.contact-form { display: flex; flex-direction: column; max-width: 500px; margin: 0 auto; gap: 15px; }
-.contact-form input, .contact-form textarea { padding: 12px 15px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; transition: border-color 0.3s; }
-.contact-form input:focus, .contact-form textarea:focus { border-color: #182848; outline: none; }
-.contact-form textarea { resize: vertical; min-height: 120px; }
-.btn.primary { background-color: #182848; color: #fff; padding: 12px 20px; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s; }
-.btn.primary:hover { background-color: #4b6cb7; }
+.contact-form { 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    gap: 15px; 
+}
+.contact-form input, .contact-form textarea 
+{ 
+    padding: 12px 15px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    font-size: 1rem; 
+    transition: border-color 0.3s; 
+}
+.contact-form input:focus, .contact-form textarea:focus { 
+    border-color: #182848; 
+    outline: none;
+ }
+.contact-form textarea { 
+    resize: vertical; 
+    min-height: 120px; 
+
+}
+.btn.primary { 
+    background-color: #182848; 
+    color: #fff; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background 0.3s; 
+}
+.btn.primary:hover { 
+    background-color: #4b6cb7;
+ }
