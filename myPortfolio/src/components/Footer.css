@@ -1,0 +1,4 @@
+.footer { padding: 40px 20px; background-color: #182848; color: #fff; text-align: center; }
+.footer p { margin-bottom: 15px; }
+.footer .socials a { color: #fff; margin: 0 10px; text-decoration: none; transition: color 0.3s; }
+.footer .socials a:hover { color: #ffd700; }
